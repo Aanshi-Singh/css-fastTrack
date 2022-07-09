@@ -75,3 +75,20 @@ a:hover{
 .olstyle{
     list-style-type: upper-alpha;
 }
+
+.boxmodel{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+input{
+    padding-left: 10px;
+    margin: 10px;
+
+}
+.overcss{
+    width: 200px;
+    height: 400px;
+    border: 2px solid red;
+    overflow: scroll; /*overflow-x, overflow-y*/
+}
