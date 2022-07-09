@@ -36,3 +36,12 @@ background-size: 100% 100%;
 background-attachment: fixed;
 
 }
+.textcss{
+    color :red;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    direction: rtl; /*ltr*/
+    text-indent: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
