@@ -92,3 +92,80 @@ input{
     border: 2px solid red;
     overflow: scroll; /*overflow-x, overflow-y*/
 }
+
+.father{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    border: 3px doted black;
+    position: relative;
+}
+
+.child1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+
+}
+.child2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(187, 255, 0);
+    position: absolute;
+    right: 0;
+
+}
+.child3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 0, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+.child4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 102, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.header{
+    width: 100%;
+    line-height: 70px;
+    text-align: center;
+    background-color: black;
+}
+
+.logo{
+    width: 30%;
+    height: 70px;
+    background-color: yellow;
+    float: left;
+}
+.menu{
+    width:70%;
+    line-height: 70px;
+    background-color: red;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+
+}
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.autol{
+    cursor: e-resize;
+}
